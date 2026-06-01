@@ -1,4 +1,5 @@
 import "./css/styles.css"
+import "./assets/home.svg"
 import { loadProjectCards } from "./js/modules/project-card"
 import { loadFooter } from "./js/modules/footer"
 
