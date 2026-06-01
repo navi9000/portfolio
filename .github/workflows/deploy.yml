@@ -21,8 +21,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Create npm lock file
-        run: npx --yes synp --source-file pnpm-lock.yaml
       - name: Set up npm cache
         uses: actions/setup-node@v4
         with:
